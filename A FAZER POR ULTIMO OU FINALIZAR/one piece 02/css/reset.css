@@ -1,0 +1,201 @@
+@charset "UTF-8"; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400&family=Rubik:ital@1&family=Secular+One&family=Sriracha&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/responsivo.css">
+
+    <title>One piece</title> 
+</head>
+<body>
+    <main class="personagens">
+        .
+-
+        <div class="personagem selecionado">
+            <img class="imagens" src="imagens/mugiwaras00.png" alt="mugiwaras">
+            <div class="conteudo">
+                <i class="logo">
+                    <h2 class="nome">Mugiwaras</h2>
+                    <p class="descricao">Uma equipe liderada por Monkey D. Luffy em One Piece. Conhecidos como os "Chapéus de Palha", são habilidosos aventureiros que navegam pelos mares em busca do lendário tesouro conhecido como One Piece. Formando amizades duradouras e encarnam a camaradagem, em busca dos seus sonhos.</p>
+                </i>
+            </div>
+
+
+                <div class="personagem">
+                    <img class="imagens" src="imagens/personagem-monkey-d-luffy.png" alt="luffy">
+                    <div class="conteudo">
+                        <i class="logo">
+                            <h2 class="nome">Monkey D luffy</h2>
+                            <p class="descricao">Luffy é o protagonista e capitão dos Piratas do Chapéu de Palha em "One Piece".
+                                Ele é alegre, destemido e busca se tornar o Rei dos Piratas. Com sua habilidade elástica e coragem, ele lidera uma tripulação leal em busca de aventuras emocionantes e do tesouro lendário, One Piece.</p>
+                        </i>
+                    </div>
+
+                    <div class="personagem">
+                        <img class="imagens" src="imagens/personagem-tony-chopper.png" alt="chopper">
+                        <div class="conteudo">
+                            <i class="logo">
+                                <h2 class="nome">Tony Chopper</h2>
+                                <p class="descricao">Tony Chopper é uma pequena rena que se tornou capaz de se transformar e pensar como humanos após comer a fruta Hito Hito no Mi. Ele é o médico dos Piratas do Chapéu de Palha e um membro valioso da tripulação.</p>
+                            </i>
+                        </div>
+
+                        <div class="personagem">
+                            <img class="imagens" src="imagens/personagem-usopp.png" alt="usopp">
+                            <div class="conteudo">
+                                <i class="logo">
+                                    <h2 class="nome">usopp</h2>
+                                    <p class="descricao">Ele é um atirador habilidoso e contador de histórias. Nascido em Syrup Village, ele sonha em se tornar um bravo guerreiro dos mares, inspirado por seu pai, Yasopp. Usopp se junta à tripulação dos Chapéus de Palha e contribui para a equipe com suas habilidades de tiro e sua imaginação criativa.</p>
+                                </i>
+                            </div>
+
+                <div class="personagem">
+                    <img class="imagens" src="imagens/personagem-roronoa-zoro.png" alt="zoro">
+                    <div class="conteudo">
+                        <i class="logo">
+                            <h2 class="nome">Roronoa Zoro</h2>
+                            <p class="descricao">Zoro é um espadachim talentoso e leal membro dos Piratas do Chapéu de Palha em "One Piece". Ele busca se tornar o maior espadachim do mundo e é conhecido por sua determinação e habilidade com a espada.</p>
+                        </i>
+                    </div>
+
+                    <div class="personagem">
+                        <img class="imagens" src="imagens/personagem-jinbei.png" alt="personagem-jinbei">
+                        <div class="conteudo">
+                            <i class="logo">
+                                <h2 class="nome">jinbei</h2>
+                                <p class="descricao">Jinbei é um personagem importante em One Piece. Ele é um lendário pirata e ex-Shichibukai. Jinbei se torna um aliado dos Chapéus de Palha e é considerado um membro honorário da tripulação.</p>
+                            </i>
+                        </div>
+
+                        <div class="personagem">
+                            <img class="imagens" src="imagens/personagem-robin.png" alt="robin">
+                            <div class="conteudo">
+                                <i class="logo">
+                                    <h2 class="nome">Robin</h2>
+                                    <p class="descricao">Ela é uma arqueóloga talentosa e ex-assassina. Robin possui a habilidade da fruta Hana Hana, Ela se torna uma valiosa aliada dos Chapéus de Palha devido ao seu vasto conhecimento sobre a história e os Poneglyphs, Sua busca por respostas e sua ligação com o passado misterioso a tornam uma personagem fascinante.</p>
+                                </i>
+                            </div>
+
+                        <div class="personagem">
+                            <img class="imagens" src="imagens/personagem-nami.png" alt="nami">
+                            <div class="conteudo">
+                                <i class="logo">
+                                    <h2 class="nome">nami</h2>
+                                    <p class="descricao">Nami é uma navegadora habilidosa e membro dos Piratas do Chapéu de Palha em "One Piece". Ela é conhecida por suas habilidades de cartografia e sua arma Clima-Tact. Nami é uma personagem astuta e determinada, sempre buscando proteger seus amigos e alcançar seus objetivos.</p>
+                                </i>
+                            </div>
+
+                            <div class="personagem">
+                                <img class="imagens" src="imagens/personagem-franky.png" alt="franky">
+                                <div class="conteudo">
+                                    <i class="logo">
+                                        <h2 class="nome">Franky</h2>
+                                        <p class="descricao">Ele é um carpinteiro talentoso e um cyborg com um corpo modificado. Após superar suas diferenças com os Chapéus de Palha, ele se junta à tripulação e se torna responsável pela manutenção e aprimoramentos do Thousand Sunny. Sua habilidade e personalidade únicas o tornam um membro valioso e divertido da equipe.</p>
+                                    </i>
+                                </div>
+
+                            <div class="personagem">
+                                <img class="imagens" src="imagens/personagem-sanji.png" alt="sanji">
+                                <div class="conteudo">
+                                    <i class="logo">
+                                        <h2 class="nome">Sanji</h2>
+                                        <p class="descricao">Sanji é um talentoso cozinheiro e membro dos Piratas do Chapéu de Palha em "One Piece". Ele é conhecido por suas habilidades culinárias e é responsável por preparar as refeições da tripulação.</p>
+                                    </i>
+                                </div>
+
+                                <div class="personagem">
+                                    <img class="imagens" src="imagens/personagem-brook.png" alt="Brook">
+                                    <div class="conteudo">
+                                        <i class="logo">
+                                            <h2 class="nome">Brook</h2>
+                                            <p class="descricao">Ele é um esqueleto vivo e o músico dos Chapéus de Palha. Brook foi transformado em um esqueleto após comer a fruta Yomi Yomi. Ele é um espadachim habilidoso e também toca o seu violino, trazendo música e diversão para a tripulação. Brook é conhecido pelo seu senso de humor e suas piadas relacionadas à sua condição de esqueleto. Além disso, ele possui uma história trágica e misteriosa que envolve seu passado como membro da Rumbar Pirates.
+                                            </p>
+                                        </i>
+                                    </div>
+            </div>
+    </main>
+    <ul class="botoes">
+
+        <li>
+            <button class="botao">
+                <img src="imagens/tripulacao-chopper.png" alt="chopper">
+            </button>
+        </li>
+        
+        <li>
+            <button class="botao">
+                <img src="imagens/tripulação-usopp.png" alt="usopp">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="imagens/tripulacao-zoro.png" alt="zoro">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="imagens/tripulação-brook.png" alt="brook">
+            </button>
+        </li>
+
+        <li>
+                <button class="botao selecionado">
+                    <img src="imagens/tripulacao-luffy.png" alt="luffy">
+                </button>
+            </li>
+        <li>
+
+            <button class="botao">
+                <img src="imagens/tripulação-franky.png" alt="franky">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="imagens/tripulacao-nami.png" alt="nami">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img src="imagens/tripulação-robin.png" alt="robin">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" id="bnt01">
+                <img src="imagens/tripulacao-sanji.png" alt="sanji">
+            </button>
+        </li>
+        
+        <li>
+            <button class="botao" id="btn02">
+                <img src="imagens/tripulação-jinbei.png" alt="jinbei">
+            </button>
+        </li>
+    </ul>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>

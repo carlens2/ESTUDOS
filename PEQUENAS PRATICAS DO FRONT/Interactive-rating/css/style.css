@@ -1,0 +1,183 @@
+:root {
+--white: hsl(0, 0%, 100%);
+--primary-color: hsl(216, 12%, 54%);
+--secundary-color: hsl(25, 97%, 53%);
+--select-state: hsl(217, 12%, 63%);
+--bg-card: hsl(213, 20%, 18%);
+--bg-color: hsl(216, 12%, 8%);
+--bg-secondary: hsla(216, 12%, 54%, 0.1);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--bg-card);
+    padding-top: 20px;
+    width: 29%;
+    height: 26em;
+    font-weight: 400;
+    border-radius: 8%;
+    background: radial-gradient(circle at 50% 0%, hsla(213, 20%, 18%) 0%, hsl(213, 32%, 10%) 100%);
+
+}
+
+.icon-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    width: 50px;
+    background-color: var(--bg-secondary);
+    border-radius: 50%;
+    padding: 18px;
+    margin-bottom: 10px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 25em;
+    height: 50%;
+}
+
+h1 {
+    padding-bottom: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.buttons {
+    display: flex;
+    width: 25em;
+    color: var(--primary-color);
+    position: relative;
+    top: 30px;
+}
+
+.button:hover {
+    color: white;
+    background-color: var(--secundary-color);
+}
+
+.button {
+    width: 55px;
+    color: var(--primary-color);
+    background-color: var(--bg-secondary);
+    border-radius: 50%;
+    padding: 18px;
+    border: none;
+    margin-left: 20px;
+    position: relative;
+    bottom: 7em;
+    cursor: pointer;
+}
+
+.btn-enviar {
+    width: 84%;
+    height: 45px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--secundary-color);
+    border-radius: 22px;
+    border: none;
+    position: relative;
+    bottom: 42px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    color: var(--secundary-color);
+    background-color: var(--white);
+}
+
+.attribuition {
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    bottom: 8em;
+}
+
+.attribuition a {
+    color: white;
+}
+
+.attribuition a:hover {
+    color: var(--secundary-color);
+}
+
+
+@media screen and (max-width: 1353px) {
+    .card {
+        width: 21rem;
+        height: ;
+        padding-right: 5px;
+    }
+
+    p {
+        width: 21em;
+        font-size: 14px;
+    }
+
+    .buttons {
+        width: 98%;
+        height: 46px;
+    }
+
+
+    .attribuition {
+        padding-top: 32px;
+    }
+}
+
+/*
+@media screen and (max-width: 400px) {
+
+    .card {
+        width: 0.5rem;
+        padding-right: 5px;
+    }
+
+    .texts {
+        width: 90%;
+    }
+
+    .buttons {
+        width: 52px;
+        height: 43px;
+    }
+
+    .button {
+        position: relative;
+        margin-left: 16px;
+        position: relative;
+        top: -87px;
+    }
+
+    .attribuition {
+        position: relative;
+        top: -65px;
+    }
+}
+
+*/
