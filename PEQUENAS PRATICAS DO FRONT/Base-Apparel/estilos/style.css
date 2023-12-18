@@ -1,0 +1,19 @@
+:root {
+    --Desaturated-Red: rgb(206, 151, 151);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+    --bg-mobile: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 245, 245, 1) 100%
+    );
+    --button-color: linear-gradient(
+      135deg,
+      rgba(248, 191, 191, 1) 0%,
+      rgba(238, 140, 140, 1) 100%
+    );
+  }
+
+  html, body {
+    
+  }
